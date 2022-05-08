@@ -1,5 +1,8 @@
 package com.example.demo.services;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
 /**
  * packageName: com.example.demo.services
  * fileName        : TestServiceImpl
@@ -10,5 +13,7 @@ package com.example.demo.services;
  * ================================
  * 2022-05-06         최민서        최초 생성
  */
-public class TestServiceImpl {
+@Service
+@RequiredArgsConstructor
+public class TestServiceImpl implements TestService{
 }
